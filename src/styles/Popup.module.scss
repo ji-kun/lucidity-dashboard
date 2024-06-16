@@ -1,0 +1,101 @@
+.popup_backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0 0 0 / 60%);
+}
+
+.popup_container {
+  background: #4a4a4a;
+  border-radius: 12px;
+  padding: 24px;
+  position: relative;
+  width: 500px;
+}
+
+.close_button {
+  cursor: pointer;
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  padding: 4px;
+  color: #dbf753;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0.1px solid #9e9e9e;
+
+  &:hover {
+    background: #171717;
+  }
+}
+
+.popup_header {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.popup_product {
+  margin-top: 8px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.product_details {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.product_detail {
+  width: 47%;
+
+  &_header {
+    font-size: 12px;
+    margin-bottom: 8px;
+  }
+
+  &_value {
+    width: calc(100% - 32px);
+    border-radius: 8px;
+    border: none;
+    background: #9e9e9e;
+    color: rgb(230, 230, 230);
+    padding: 8px 16px;
+  }
+}
+
+.buttons_container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.cancel_button {
+  cursor: pointer;
+  color: #dbf753;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.save_button {
+  cursor: pointer;
+  background-color: #dbf753;
+  border-radius: 8px;
+  padding: 8px 12px;
+  color: #171717;
+  font-size: 14px;
+  font-weight: 600;
+}

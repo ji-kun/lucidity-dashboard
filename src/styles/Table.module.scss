@@ -1,0 +1,77 @@
+.table {
+  width: 100%;
+  margin-top: 24px;
+  background: #282828;
+  border-radius: 8px;
+  overflow: hidden;
+
+  &_header {
+    width: 100%;
+    display: flex;
+    padding: 16px;
+  }
+}
+
+.separator {
+  padding: 20px 16px;
+  border-top: 0.1px solid #4a4a4a;
+}
+
+.name {
+  width: 30%;
+}
+.category {
+  width: 15%;
+}
+.price {
+  width: 15%;
+}
+.quantity {
+  width: 10%;
+}
+.value {
+  width: 15%;
+}
+.action {
+  width: 15%;
+}
+
+.header_tablet {
+  padding: 8px 12px;
+  border-radius: 6px;
+  background-color: #161718;
+  color: #df5;
+  font-size: 12px;
+  font-weight: 500;
+  width: max-content;
+}
+
+.actions_container {
+  display: flex;
+  gap: 12px;
+}
+
+.noEvents {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.icon {
+  cursor: not-allowed;
+}
+
+.edit_icon.edit_icon {
+  cursor: pointer;
+  color: green;
+}
+
+.visible_icon.visible_icon {
+  cursor: pointer;
+  color: plum;
+  pointer-events: all;
+}
+
+.delete_icon.delete_icon {
+  cursor: pointer;
+  color: red;
+}

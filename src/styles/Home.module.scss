@@ -1,0 +1,13 @@
+$background-colour: #161718;
+$neutral-scale-0: #ffffff;
+
+@mixin flex-center { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home_container {
+  padding: 25px 65px;
+  color: $neutral-scale-0;
+}

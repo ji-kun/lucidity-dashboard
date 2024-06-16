@@ -1,0 +1,35 @@
+.overview {
+  margin-top: 50px;
+
+  &_header {
+    font-size: 32px;
+  }
+
+  &_card {
+    width: 23%;
+    display: flex;
+    gap: 16px;
+    border-radius: 12px;
+    background: #25452e;
+    padding: 16px;
+
+    &_container {
+      margin-top: 16px;
+      display: flex;
+      gap: 1%;
+      justify-content: space-between;
+      width: 100%;
+    }
+
+    &_header {
+      font-size: 14px;
+      font-weight: 400;
+    }
+
+    &_value {
+      font-size: 28px;
+      font-weight: 500;
+      margin-top: 10px;
+    }
+  }
+}
